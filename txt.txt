@@ -1,0 +1,14 @@
+1. Donner le mot-clé qui permet aux membres de la classe (méthodes et propriétés) d’être utilisés sans 
+avoir à instancier une nouvelle instance de la classe? 
+
+
+2. Quel est le rôle de la méthode magique __toString() ?
+le role de la methode magique __toString(): Détermine comment l'objet doit réagir lorsqu'il est traité comme une chaîne de caractères.
+
+4. Nommer la méthode qui trie un tableau, selon la clé, par ordre décroissant. (1pt)
+krsort()
+
+
+5. Donner la méthode qui permet de stocker la variable couleur avec sa valeur ROUGE
+(couleur=ROUGE) sur un navigateur pendant 20 jours. 
+setcookie("couleur", "ROUGE", time()+20*24*3600);
